@@ -1,0 +1,205 @@
+:root {
+  --black: #2f303a;
+  --white: #ffffff;
+  --grey: #f5f4fa;
+  --blue: #2196f3;
+  --primary font: 'Roboto', sans-serif;
+  --secondary font: 'Raleway', sans-serif;
+}
+
+.body{
+    background-color: var(--white);
+    font-family: var(--primary);
+}
+
+.header {
+  background-color: var(--white);
+}
+
+.header__logo {
+  color: #212121;
+  font-family: var(--secondary);
+}
+
+.header__navigation ul {
+  list-style-type: none;
+  color: #212121;
+  font-family: var(--primary);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 2;
+}
+
+.header__navigation a:hover {
+  color: var(--blue);
+}
+
+.header__info {
+  color: #212121;
+  font-family: var(--primary);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 2;
+}
+
+.header__info:hover {
+  color: var(--blue);
+}
+
+.footer {
+  background-color: var(--black);
+}
+
+/* Index */
+
+.main {
+  background-color: var(--black);
+}
+
+.main__text {
+  font-family: var(--primary);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 6;
+  text-align: center;
+}
+
+.main__button {
+  font-family: var(--primary);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 6;
+  text-align: center;
+  background-color: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.what {
+  background-color: var(--white);
+}
+
+.what__title {
+  font-family: var(--primary);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 3;
+  text-align: left;
+}
+
+.what__subtitle {
+  font-family: var(--primary);
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3;
+  text-align: left;
+}
+
+.what__we {
+  font-family: var(--primary);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 3;
+  text-align: center;
+}
+
+.ourteam {
+  background-color: #f5f4fa;
+}
+
+.ourteam__name {
+  font-family: var(--primary);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  letter-spacing: 3;
+  text-align: center;
+}
+
+.ourteam__job {
+  font-family: var(--primary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  letter-spacing: 3;
+  text-align: center;
+}
+
+.ourteam__title {
+  font-family: var(--primary);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 3;
+  text-align: center;
+}
+
+.footer__logo {
+  color: var(--white);
+  font-family: var(--secondary);
+}
+
+.footer__adress {
+  color: var(--white);
+  font-family: var(--primary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.footer__info {
+  color: #ffffff;
+  font-family: var(--primary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.footer__info:hover {
+  color: var(--blue);
+}
+
+/* Portofolio */
+
+.button {
+  background-color: #f5f4fa;
+  color: black;
+  font-family: var(--primary);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--blue);
+  color: white;
+}
+
+.porto__title {
+  font-family: var(--primary);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 6;
+  text-align: left;
+}
+
+.porto__subtitle {
+  font-family: var(--primary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 3;
+  text-align: left;
+}
