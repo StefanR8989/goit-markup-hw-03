@@ -218,7 +218,8 @@ padding-right: 215px;
   width: 1600px;
   height: 648px;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  padding-bottom: 94px;  
 }
 
 .ourteam__div {
@@ -266,6 +267,7 @@ padding-right: 215px;
   width: 270px;
   height: 368px;
   padding-left: 215px;
+  gap: 30px;
 }
 
 .ourteam__image {
@@ -401,11 +403,14 @@ padding-right: 326px;
 .porto__div {
   display: flex;
   align-items: center;
+  gap: 30px;
+  padding-bottom: 30px;
 }
 
 .porto__images {
   width: 370px;
   height: 404px;
+  border: 1px solid #EEEEEE
 }
 
 .porto__image {
