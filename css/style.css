@@ -24,11 +24,13 @@
   border: 1px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {
   color: #212121;
   font-family: var(--secondary);
+  display: flex;
 }
 
 .header__navigation ul {
@@ -70,6 +72,7 @@
   width: 1600px;
   height: 600px;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -81,8 +84,13 @@
   line-height: 60px;
   letter-spacing: 0.06em;
   text-align: center;
-  flex: 1;
-  order: 1;
+  width: 696px;
+  height: 120px;
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  padding-left: 452px;
+  padding-right: 452px;
 }
 
 .main__button {
@@ -95,7 +103,8 @@
   background-color: var(--blue);
   color: var(--white);
   cursor: pointer;
-  order: 2;
+  width: 200px;
+  height: 50px;
 }
 
 .what {
@@ -167,35 +176,45 @@
   background-color: #f5f4fa;
   width: 1600px;
   height: 648px;
-  padding: 0px 215px;
-  gap: 30px;
-  display: block;
+  display: flex;
+  flex-direction: column
 }
 
 .ourteam__div {
-  display: block;
+  background-color: var(--white);
+  width: 270px;
+  height: 368px;
 }
 
 .ourteam__name {
   font-family: var(--primary);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: var(--black);
   line-height: 18.75px;
   letter-spacing: 0.03em;
-  width: 88px;
+  width: 145px;
   height: 19px;
   display: flex;
-  justify-self: center;
+  padding-top: 30px;
+  padding-left: 63px;
+  padding-right: 62px;
+  padding-bottom: 10px;
+  justify-content: center;
 }
 
 .ourteam__job {
   font-family: var(--primary);
-  font-size: 16px;
+  color: #757575;
+  font-size: 15px;
   font-weight: 400;
   line-height: 18.75px;
   letter-spacing: 0.03em;
-  text-align: center;
-  width: 87px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  width: 130px;
   height: 19px;
 }
 
@@ -205,6 +224,7 @@
   display: flex;
   width: 270px;
   height: 368px;
+  padding-left: 215px;
 }
 
 .ourteam__image {
@@ -223,7 +243,8 @@
   height: 42px;
   padding-top: 188px;
   padding-bottom: 50px;
-  padding-left: 500px;
+  padding-left: 700px;
+  display: flex;
 }
 
 .footer {
@@ -261,6 +282,12 @@
   padding-bottom: 12px;
 }
 
+.footer__infos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 .footer__info {
   color: #ffffff;
   font-family: var(--primary);
@@ -269,12 +296,16 @@
   line-height: 16px;
   color: #757575;
   letter-spacing: 0.03em;
-  display: block;
   width: 231px;
   height: 16px;
+  pad
 }
 
 .footer__info:hover {
+  color: var(--blue);
+}
+
+.spanhf {
   color: var(--blue);
 }
 
