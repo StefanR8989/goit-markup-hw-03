@@ -27,20 +27,19 @@
   align-items: center;
 }
 
-.header__div{
+.header__div {
   display: flex;
 }
 
-.header__div1{
+.header__div1 {
   display: flex;
   gap: 50px;
   font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 16.41px;
-letter-spacing: 0.02em;
-text-align: left;
-
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .header__logo {
@@ -48,11 +47,11 @@ text-align: left;
   font-family: var(--secondary);
   display: flex;
   font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-line-height: 30.52px;
-letter-spacing: 0.03em;
-text-align: left;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 
 .header__navigation {
@@ -66,7 +65,7 @@ text-align: left;
   gap: 93px;
 }
 
-.header__navigation{
+.header__navigation {
   display: flex;
   padding-left: 215px;
   align-items: center;
@@ -76,17 +75,17 @@ text-align: left;
   color: var(--blue);
 }
 
-.header__div2{
+.header__div2 {
   display: flex;
   justify-content: flex-end;
   gap: 40px;
   font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 16.41px;
-letter-spacing: 0.02em;
-text-align: left;
-padding-right: 215px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding-right: 215px;
 }
 
 .header__info {
@@ -219,7 +218,7 @@ padding-right: 215px;
   height: 648px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 94px;  
+  padding-bottom: 94px;
 }
 
 .ourteam__div {
@@ -341,7 +340,6 @@ padding-right: 215px;
   letter-spacing: 0.03em;
   width: 231px;
   height: 16px;
-  pad
 }
 
 .footer__info:hover {
@@ -364,15 +362,15 @@ padding-right: 215px;
 }
 
 .buttons {
-display: flex;
-justify-content: center;
-gap: 8px;
-border: 0;
-width: 516px;
-height: 38px;
-padding-bottom: 56px;
-padding-left: 327px;
-padding-right: 326px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  border: 0;
+  width: 516px;
+  height: 38px;
+  padding-bottom: 56px;
+  padding-left: 327px;
+  padding-right: 326px;
 }
 
 .button {
@@ -394,11 +392,9 @@ padding-right: 326px;
   color: white;
 }
 
-.porto {
-  /* padding-left: 215px;
+/* .porto { */
+/* padding-left: 215px;
   padding-right: 215px; */
-
-}
 
 .porto__div {
   display: flex;
@@ -410,7 +406,7 @@ padding-right: 326px;
 .porto__images {
   width: 370px;
   height: 404px;
-  border: 1px solid #EEEEEE
+  border: 1px solid #eeeeee;
 }
 
 .porto__image {
@@ -418,7 +414,7 @@ padding-right: 326px;
   height: 294px;
 }
 
-.porto__info{
+.porto__info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
