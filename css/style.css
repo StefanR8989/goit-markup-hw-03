@@ -315,6 +315,21 @@
   background-color: white;
   width: 1170px;
   height: 1360px;
+  padding-left: 215px;
+  padding-right: 215px;
+  padding-bottom: 94px;
+}
+
+.buttons {
+display: flex;
+justify-content: center;
+gap: 8px;
+border: 0;
+width: 516px;
+height: 38px;
+padding-bottom: 56px;
+padding-left: 327px;
+padding-right: 326px;
 }
 
 .button {
@@ -327,7 +342,8 @@
   letter-spacing: 0.03em;
   text-align: center;
   cursor: pointer;
-  gap: 8px;
+  padding: 6px 22px;
+  border: none;
 }
 
 .button:hover {
@@ -336,8 +352,9 @@
 }
 
 .porto {
-  width: 1170px;
-  height: 1360px;
+  /* padding-left: 215px;
+  padding-right: 215px; */
+
 }
 
 .porto__div {
@@ -353,6 +370,12 @@
 .porto__image {
   width: 370px;
   height: 294px;
+}
+
+.porto__info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .porto__title {

@@ -16,7 +16,7 @@
     <header class="header">
       <!--Header section-->
       <nav class="header__navigation">
-        <h3 class="header__logo">WebStudio</h3>
+        <h3 class="header__logo"><span class="spanhf">Web</span>Studio</h3>
         <ul>
           <li><a href="index.html">Studio</a></li>
           <li><a href="portofolio.html">Portofolio</a></li>
@@ -30,11 +30,13 @@
     </header>
     <main class="mainporto">
       <!-- Buttons section -->
-      <button class="button" type="button">All</button>
-      <button class="button" type="button">Web-sites</button>
-      <button class="button" type="button">Apss</button>
-      <button class="button" type="button">Design</button>
-      <button class="button" type="button">Marketing</button>
+      <div class="buttons">
+        <button class="button" type="button">All</button>
+        <button class="button" type="button">Web-sites</button>
+        <button class="button" type="button">Apss</button>
+        <button class="button" type="button">Design</button>
+        <button class="button" type="button">Marketing</button>
+      </div>
 
       <!-- Portofolio section -->
       <section>
@@ -48,8 +50,10 @@
                 alt="Technoduck"
                 width="200"
               />
-              <p class="porto__title">Technoduck</p>
-              <p class="porto__subtitle">Web-site</p>
+              <div class="porto__info">
+                <p class="porto__title">Technoduck</p>
+                <p class="porto__subtitle">Web-site</p>
+              </div>
             </div>
 
             <!-- Design -->
@@ -60,8 +64,10 @@
                 alt="Poster"
                 width="200"
               />
-              <p class="porto__title">Poster New Orlean vs Golden Star</p>
-              <p class="porto__subtitle">Design</p>
+              <div class="porto__info">
+                <p class="porto__title">Poster New Orlean vs Golden Star</p>
+                <p class="porto__subtitle">Design</p>
+              </div>
             </div>
 
             <!-- Apps -->
@@ -72,8 +78,10 @@
                 alt="Seafood"
                 width="200"
               />
-              <p class="porto__title">Seafood Restaurant</p>
-              <p class="porto__subtitle">Apps</p>
+              <div class="porto__info">
+                <p class="porto__title">Seafood Restaurant</p>
+                <p class="porto__subtitle">Apps</p>
+              </div>
             </div>
           </div>
           <div class="porto__div">
@@ -85,8 +93,10 @@
                 alt="Project prime"
                 width="200"
               />
-              <p class="porto__title">Project prime</p>
-              <p class="porto__subtitle">Marketing</p>
+              <div class="porto__info">
+                <p class="porto__title">Project prime</p>
+                <p class="porto__subtitle">Marketing</p>
+              </div>
             </div>
 
             <!-- Apps1 -->
@@ -97,8 +107,10 @@
                 alt="Project prime"
                 width="200"
               />
-              <p class="porto__title">Project prime</p>
-              <p class="porto__subtitle">Apps</p>
+              <div class="porto__info">
+                <p class="porto__title">Project prime</p>
+                <p class="porto__subtitle">Apps</p>
+              </div>
             </div>
 
             <!-- Web1 -->
@@ -109,8 +121,10 @@
                 alt="Inspiration has no Borders"
                 width="200"
               />
-              <p class="porto__title">Inspiration has no Borders</p>
-              <p class="porto__subtitle">Web-site</p>
+              <div class="porto__info">
+                <p class="porto__title">Inspiration has no Borders</p>
+                <p class="porto__subtitle">Web-site</p>
+              </div>
             </div>
           </div>
           <div class="porto__div">
@@ -122,8 +136,10 @@
                 alt="Limited Edition"
                 width="200"
               />
-              <p class="porto__title">Limited Edition</p>
-              <p class="porto__subtitle">Design</p>
+              <div class="porto__info">
+                <p class="porto__title">Limited Edition</p>
+                <p class="porto__subtitle">Design</p>
+              </div>
             </div>
 
             <!-- Marketing1 -->
@@ -134,8 +150,10 @@
                 alt="Project LAB"
                 width="200"
               />
-              <p class="porto__title">Project LAB</p>
-              <p class="porto__subtitle">Marketing</p>
+              <div class="porto__info">
+                <p class="porto__title">Project LAB</p>
+                <p class="porto__subtitle">Marketing</p>
+              </div>
             </div>
 
             <!-- Apps2 -->
@@ -146,21 +164,25 @@
                 alt="Growing Business"
                 width="200"
               />
-              <p class="porto__title">Growing Business</p>
-              <p class="porto__subtitle">Apps</p>
+              <div class="porto__info">
+                <p class="porto__title">Growing Business</p>
+                <p class="porto__subtitle">Apps</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <h3 class="footer__logo">WebStudio</h3>
+      <h3 class="footer__logo"><span class="spanhf">Web</span>Studio</h3>
       <div class="footer__box">
         <p class="footer__adress">695 Park Ave, NY 10065, USA</p>
-        <a class="footer__info" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="footer__info" href="tel:+12127724150">+1 212-772-4150</a>
+        <div class="footer__infos">
+          <a class="footer__info" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="footer__info" href="tel:+12127724150">+1 212-772-4150</a>
+        </div>
       </div>
     </footer>
   </body>
