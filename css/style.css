@@ -147,15 +147,11 @@
   height: 50px;
 }
 
-.what {
-  background-color: var(--white);
-}
-
 .what__section {
   background-color: var(--white);
   width: 1170px;
   height: 101px;
-  padding: 91px 215px;
+  padding: 94px 215px;
   display: flex;
   gap: 30px;
 }
@@ -186,6 +182,7 @@
 .what {
   width: 1170px;
   height: 386px;
+  padding-bottom: 94px;
 }
 
 .what__we {
